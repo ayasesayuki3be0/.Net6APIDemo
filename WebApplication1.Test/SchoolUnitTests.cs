@@ -27,6 +27,7 @@ namespace WebApplication1.Test
             var actual = await client.GetStringAsync("/");
             //Assert
             Assert.Equal(expected, actual);
+
         }
         [Fact]
         public async Task GetSchoolsApi()
